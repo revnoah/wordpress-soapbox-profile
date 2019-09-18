@@ -1,0 +1,32 @@
+{
+  "name": "wordpress-soapbox-profile",
+  "version": "1.0.0",
+  "description": "WordPress plugin to display profiles for political parties",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-zip": "^4.2.0"
+  },
+  "scripts": {
+    "build": "phpcs && gulp",
+    "test": "phpcs && gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revnoah/wordpress-soapbox-profile.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "profile",
+    "social"
+  ],
+  "author": "Noah J. Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revnoah/wordpress-soapbox-profile/issues"
+  },
+  "homepage": "https://github.com/revnoah/wordpress-soapbox-profile#readme"
+}
